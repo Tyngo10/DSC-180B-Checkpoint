@@ -16,8 +16,13 @@
             text-align: center;
         }
 
+        .header h1, .header p {
+            color: black; /* Change text color to black */
+        }
+
         .content {
             padding: 20px;
+            color: black; /* Change text color to black */
         }
 
         .abstract {
@@ -40,16 +45,17 @@
 
 <div class="header">
     <h1>Exploring Genetic Relationships Among Age-Related Diseases</h1>
-    <p>
-        <strong>Authors:</strong><br>
-        Tyler Ngo <a href="mailto:tdngo@ucsd.edu">tdngo@ucsd.edu</a><br>
-        Ethan Lee <a href="mailto:e3lee@ucsd.edu">e3lee@ucsd.edu</a><br>
-        John Driscoll <a href="mailto:jjdrisco.edu">jjdrisco.edu</a><br>
-        <strong>Mentor:</strong> Tiffany Amariuta <a href="mailto:tamariutabartell@ucsd.edu">tamariutabartell@ucsd.edu</a>
-    </p>
 </div>
 
 <div class="content">
+
+<p>
+    <strong>Authors:</strong><br>
+    Tyler Ngo <a href="mailto:tdngo@ucsd.edu">tdngo@ucsd.edu</a><br>
+    Ethan Lee <a href="mailto:e3lee@ucsd.edu">e3lee@ucsd.edu</a><br>
+    John Driscoll <a href="mailto:jjdrisco.edu">jjdrisco.edu</a><br>
+    <strong>Mentor:</strong> Tiffany Amariuta <a href="mailto:tamariutabartell@ucsd.edu">tamariutabartell@ucsd.edu</a>
+</p>
 
 <h2>Abstract</h2>
 
@@ -81,4 +87,4 @@
 <p>We conduct colocalization analysis (COLOC) by utilizing GWAS summary statistics for several aging-related diseases and integrating them with gene expression and genotype data from the 1000 Genomes dataset. By using colocalization, we assess the statistical likelihood of there being a shared causal variant between two independent associations: disease status and the expression of a particular gene. We implemented the analysis using the "coloc" package in R, and ran the analysis in batches due to the large size of the GWAS data. The resulting matrix contains the results of statistical tests, which identify the strength of evidence for colocalization at points of interest in the genotype data.</p>
 
 <h3>Principal Component Analysis</h3>
-<p>We applied Principal Component Analysis (PCA) to the results matrix from the COLOC analysis which comprises of genes and COLOC summary statistics. PCA serves as a dimensionality reduction technique, which allows for the analysis of potential patterns or relationships within the genotype architecture behind the aging-related diseases of interest. We applied PCA through code configured in Python, allowing us to employ various analysis and visualization techniques. Additionally, we employed clustering to further analyze patterns within the results data, which allowed for the identification of clusters of genetic variants with similar characteristics or affects on aging-related diseases. Combined, the PCA and clustering analysis allowed us to identify patterns
+<p>We applied Principal Component Analysis (PCA) to the results matrix from the COLOC analysis which comprises of genes and COLOC summary statistics. PCA serves as a dimensionality reduction technique, which allows for the analysis of potential patterns or relationships within the genotype architecture behind the aging-related diseases of interest. We applied PCA through code configured in Python, allowing us to employ various analysis and visualization techniques. Additionally, we employed clustering to further analyze patterns within the results data, which allowed for the identification of clusters of genetic variants with similar characteristics or affects on aging-related diseases. Combined, the PCA and clustering analysis allowed us to identify patterns in the COLOC data, uncover
