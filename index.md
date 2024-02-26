@@ -1,3 +1,17 @@
+<div class="gradient-bg">
+    <h1>Exploring Genetic Relationships Among Age-Related Diseases</h1>
+    <!-- Add other content of your website below this -->
+</div>
+
+<style>
+.gradient-bg {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Adjust the colors as needed */
+    padding: 50px; /* Adjust the padding as needed */
+    text-align: center;
+    color: white; /* Change text color if needed */
+}
+</style>
+
 # Exploring Genetic Relationships Among Age-Related Diseases
 
 **Authors:**
