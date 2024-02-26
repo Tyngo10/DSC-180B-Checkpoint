@@ -89,3 +89,15 @@
 
 <h3>Principal Component Analysis</h3>
 <p>We applied Principal Component Analysis (PCA) to the results matrix from the COLOC analysis which comprises of genes and COLOC summary statistics. PCA serves as a dimensionality reduction technique, which allows for the analysis of potential patterns or relationships within the genotype architecture behind the aging-related diseases of interest. We applied PCA through code configured in Python, allowing us to employ various analysis and visualization techniques. Additionally, we employed clustering to further analyze patterns within the results data, which allowed
+
+<h2>Results</h2>
+
+<div class="abstract">
+    <p></p>
+</div>
+
+<h2>Conclusion</h2>
+
+<div class="abstract">
+    <p></p>
+</div>
