@@ -64,13 +64,15 @@
 
 <h2>Introduction</h2>
 
-<p>Understanding more about aging-related diseases, such as Alzheimer’s or dementia, is a crucial stepping stone for medical advances and increased prevention. In this study, we take a deeper look into the aforementioned diseases, uncover the underlying genetic factors that define them.</p>
+<div class="abstract">
+    <p>Understanding more about aging-related diseases, such as Alzheimer’s or dementia, is a crucial stepping stone for medical advances and increased prevention. In this study, we take a deeper look into the aforementioned diseases, uncover the underlying genetic factors that define them.</p>
 
 <p>We will use a variety of methods to understand how diseases are connected at the genetic level. The central method in this process, colocalization analysis, is a powerful tool that will allow us to see if numerous different traits share any causal genes. By examining overlapping gene representation between diseases, we can identify these causal genes. Additionally, we employ principal component analysis (PCA) in order to visualize patterns in our genetic datasets. PCA allows us to reduce the dimensionality of complex data matrices and identify clusters, providing valuable insight into the genetic relationships among the targeted diseases.</p>
 
 <p>We will also use gene set enrichment analysis (GSEA) to identify genes within gene sets that have a stronger effect on our phenotype data, in this case our gender data correlating to the 1000G dataset. We can then cross-reference our significant gene results from our colocalization and the GSEA to make notable conclusions.</p>
 
 <p>By implementing these analytical approaches, our study aims to establish a connection between the genetic basis of Alzheimer’s and age-related conditions. By figuring out how diseases are related genetically and finding shared pathways, researchers can determine better treatments for them. Our discoveries can significantly change how age-related diseases are diagnosed, prevented, and treated.</p>
+</div>
 
 <h2>Methods</h2>
 
