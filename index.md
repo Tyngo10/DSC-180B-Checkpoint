@@ -78,7 +78,7 @@
 
 <div class="methods">
 
-<img src="methods_overview.png">
+<img src="methods.png">
 
 <h3>Data Collection and Preprocessing</h3>
 <p>To investigate our main interest in this work, aging-related disease, we pull publically available GWAS data, genotype data, gene expression data, and gene set databases. We find relevant GWAS summary statistics for our diseases of interest from the [GWAS Catalogue](ebi.ac.uk/gwas) genotype and gene expression data from the [1000 Genomes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3918453/) dataset, and gene sets from the [Molecular Signatures Database (MSigDB)](https://www.gsea-msigdb.org/gsea/index.jsp). To use these data sources in our analysis, we had to format, label, normalize, and clean up the datasets using various techniques in Python.</p>
@@ -109,6 +109,7 @@
 
     <p>Principal Component Analysis of our colocalization yielded the right skewed distribution expected in PCA. The first component accounted for around 60% of the variation, or in other words isolated one third of our 6 diseases from the others, alzheimers and osteoarthrosis. This indicates that the majority of the variance can be explained by simple patterns, but a large amount is unaccounted for. Clusters generated using the PCA results seemed to isolate regions of significance unique to alzheimers and osteoarthrosis, but their corresponding gene subsets did not yield significantly enriched pathways when examined using GSEA.</p>
 </div>
+    <img src="pcascatter.png">
 
 <h2>Conclusion</h2>
 
