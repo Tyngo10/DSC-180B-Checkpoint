@@ -9,34 +9,34 @@
         }
 
         .header {
-            background: linear-gradient(to right, #008080, #00CED1); /* Teal Gradient */
+            background: linear-gradient(to right, #008080, #00CED1);
             color: white;
             padding: 30px;
             text-align: center;
         }
 
         .header h1, .header p {
-            color: black; /* Change text color to black */
+            color: black;
         }
 
         .content {
             padding: 20px;
-            color: black; /* Change text color to black */
+            color: black;
         }
 
         .abstract {
-            background-color: #f0f0f0; /* Light grey background */
+            background-color: #f0f0f0;
             padding: 20px;
             margin-bottom: 20px;
         }
 
         .methods {
-            background-color: #f9f9f9; /* Off-white background */
+            background-color: #f9f9f9;
             padding: 20px;
         }
 
         h1, h2, h3 {
-            color: #008080; /* Teal color for headings */
+            color: #008080;
         }
     </style>
 </head>
