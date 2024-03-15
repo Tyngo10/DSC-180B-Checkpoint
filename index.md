@@ -98,14 +98,14 @@
 
 <div class="abstract">
     
-    <h3>Colocalization Matrix</h3>h3>
+    <h3>Colocalization Matrix</h3>
     
     <img src=heatmap.png>
     
     <p>Our colocalization output contained prior probaiblty values that ranged from 0 to 1 with the large majority falling between 0 and 0.2, indicating that evidence of shared causal variants is weak for a majority of the gene windows. When we look at signifcant prior probabilities across all diseases, we find that a single gene set is enriched across all of the diseases, KEGG_LYSOSOME. Lysosome activity is resopnsible for cell death, which is abnormal in all of the diseases we consider.</p>
-    <img src="lysosomeenrichment.png"></img>
+    <img src="lysosomeenrichment.png">
     
-    <p><When we consider only regions with signifant evidence of a shared causal variant, patterns begin to emerge that are unique to disease type. When subsetting to a prior larger than 0.1, the gene set of highest enrichment in the age-related diseases is HALLMARK_GLYCOLISIS. Literature shows glycolysis is abnormal in peripheral cells in Alzheimer's disease, Parkinson's disease, and Amyotrophic Lateral Sclerosis. /p>
+    <p>When we consider only regions with signifant evidence of a shared causal variant, patterns begin to emerge that are unique to disease type. When subsetting to a prior larger than 0.1, the gene set of highest enrichment in the age-related diseases is HALLMARK_GLYCOLISIS. Literature shows glycolysis is abnormal in peripheral cells in Alzheimer's disease, Parkinson's disease, and Amyotrophic Lateral Sclerosis. </p>
     <img src="glycolysisenrichment.png">
         
     <p>There are regions of significance between diseases that are individual to those diseases as well. When we isolate per-disease and subset by significant prior probability, the subset of genes indicates sources of genetic disease impact. For example, in osteoarthrosis we find that the HALLMARK_ESTROGEN_RESPONSE_EARLY and HALLMARK_ESTROGEN_RESPONSE_LATE are significantly enriched, indicating that hormone levels play a significant role in osteoarthrosis, which we know to be true from an empirical standpoint.</p>
