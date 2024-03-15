@@ -95,11 +95,23 @@
 <h2>Results</h2>
 
 <div class="abstract">
-    <p></p>
+    <h3>Colocalization Matrix</h3>h3>
+    <img src=heatmap.png>
+    <p>Our colocalization output contained prior probaiblty values that ranged from 0 to 1 with the large majority falling between 0 and 0.2, indicating that evidence of shared causal variants is weak for a majority of the gene windows. When we look at signifcant prior probabilities across all diseases, we find that a single gene set is enriched across all of the diseases, KEGG_LYSOSOME. Lysosome activity is resopnsible for cell death, which is abnormal in all of the diseases we consider.</p>
+    <img src="lysosomeenrichment.png">
+    
+    <p><When we consider only regions with signifant evidence of a shared causal variant, patterns begin to emerge that are unique to disease type. When subsetting to a prior larger than 0.1, the gene set of highest enrichment in the age-related diseases is HALLMARK_GLYCOLISIS. Literature shows glycolysis is abnormal in peripheral cells in Alzheimer's disease, Parkinson's disease, and Amyotrophic Lateral Sclerosis. /p>
+    <img src="glycolysisenrichment.png">
+        
+    <p>There are regions of significance between diseases that are individual to those diseases as well. When we isolate per-disease and subset by significant prior probability, the subset of genes indicates sources of genetic disease impact. For example, in osteoarthrosis we find that the HALLMARK_ESTROGEN_RESPONSE_EARLY and HALLMARK_ESTROGEN_RESPONSE_LATE are significantly enriched, indicating that hormone levels play a signifant role in osteoarthosis, which we know to be true from an empirical standpoint.</p>
+        
+    <p>There is one region of overlap we see in the heatmap between hypertension and coronary atheroscle. This overlap is small but it indicates that there may be a shared disease mechanism. However the region is so small that GSEA is unable to detect enriched pathways in the gene subset we extracted from that region using higherarchical clustering.</p>
+
+    <p>Principal Component Analysis of our colocalization yielded the right skewed distribution expected in PCA. The first component accounted for around 60% of the variation, or in other words isolated one third of our 6 diseases from the others, alzheimers and osteoarthrosis. This indicates that the majority of the variance can be explained by simple patterns, but a large amount is unaccounted for. Clusters generated using the PCA results seemed to isolate regions of significance unique to alzheimers and osteoarthrosis, but their corresponding gene subsets did not yield significantly enriched pathways when examined using GSEA.</p>
 </div>
 
 <h2>Conclusion</h2>
 
 <div class="abstract">
-    <p></p>
+    <p>Our results reaffirm that colocalization paired with GSEA is a beneficial strategy in understanding genetic mechanisms of disease. Identifing lysosome activity as a significant factor against all disease validates our pipeline since its results align with genetic and empirical fact. Moreover, identifying glycolysis as a mechanism in age-related disease in this manner is significant because the understanding of change in glycolisis activity was discovered through empirical observation. Seeing the same signal from a genetic standpoint in a case where the genetic basis was not the primary method of discovery indicates that other similar discoveries may be made in the future. Likely, purely genetic evidence discovered in this way can later be validated through empirical observation and form an invaluable foundation for disease prevention and treatment.</p>
 </div>
